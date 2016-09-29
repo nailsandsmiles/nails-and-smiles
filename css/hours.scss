@@ -1,7 +1,7 @@
 .hours-hero {
     background-color: rgba(255,255,255,0.8);
     margin: 150px auto 80px auto;
-    width: 80%;
+    width: 60%;
     padding: 20px 30px;
 }
 
@@ -73,7 +73,7 @@ form {
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     .hours-cta{
         width: 100%;
     }

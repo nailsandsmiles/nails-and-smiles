@@ -5,11 +5,13 @@
           Located inside of Salons by JC<br/>
             Suite #29<br/>
             308 E Rand Rd<br/>
-            Arlington Heights, IL 60004<br/>
+            Arlington Heights, IL 60004<br/><br/>
+            <span class="pink">Gift Certificate Available</span>
         </p>
     </div>
     
     <div class="hours-email">
+        <p class="pink">Please call if you are looking to book an appointment that is less than 2 days.</p>
         <div class="email-form">
             <form action="https://formspree.io/jagawebdev@gmail.com" method="POST">
                 <label><span>Your Name (required)</span>
@@ -20,11 +22,19 @@
                     <input type="email" name="_replyto">
                 </label>
                 
-                <label><span>Subject</span>
-                    <input type="text" name="subject">
+                <label><span>Your Phone Number (required)</span>
+                    <input type="text" name="phone-number">
                 </label>
                 
-                <label><span>Your Message</span>
+                <label><span>Date and Time of the appointment (required)</span>
+                    <input type="text" name="date-and-time">
+                </label>
+                
+                <label><span>Services to get done (required)</span>
+                    <input type="text" name="services-requested">
+                </label>
+                
+                <label><span>Request or Message</span>
                     <textarea name="message"></textarea>
                 </label>
                 <input type="text" name="_gotcha" style="display:none" />
