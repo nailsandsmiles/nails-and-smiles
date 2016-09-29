@@ -25,16 +25,67 @@ body {
     clear: both;
 }
 
+footer {
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    font-size: 14px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer-container {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    h3{
+        font-size: 14px;
+        text-transform: none;
+    }
+}
+
+.sub-container{
+    width: 33.3%;
+    float: left;
+    padding: 0 30px;
+}
+
+.copyright {
+    font-size: 12px;
+    padding-left: 30px;
+    a{
+        color: black;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
 
 @media screen and (max-width: 559px){
     .responsive {
         width: 95%;
         margin-top: 50px;
     }
+    
+    .footer-responsive {
+        width: 95%;
+    }
+    
+    .sub-container{
+        width: 100%;
+    }
 }
 
-@media (min-width: 600px) and (max-width: 990px){
+@media (min-width: 560px) and (max-width: 990px){
     .responsive {
         width: 80%;
+    }
+    
+    .footer-responsive {
+        width: 80%;
+    }
+    
+    .sub-container{
+        width: 100%;
     }
 }

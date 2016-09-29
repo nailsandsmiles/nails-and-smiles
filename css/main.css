@@ -406,7 +406,8 @@ textarea {
   width: 100%;
   font-size: 40px;
   padding: 5px 20px 0 0;
-  text-align: right; }
+  text-align: right;
+  z-index: 200; }
   .hamburger:hover {
     cursor: pointer; }
 
@@ -438,6 +439,11 @@ textarea {
     color: black; }
 
 @media screen and (max-width: 740px) {
+  .logo {
+    top: 20px; }
+    .logo img {
+      width: 170px; }
+
   .header.hidden {
     transform: translateY(0); }
 
@@ -527,12 +533,52 @@ body {
 .clearfix {
   clear: both; }
 
+footer {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  width: 100%;
+  padding: 20px 0; }
+
+.footer-container {
+  position: relative;
+  margin: auto;
+  width: 60%; }
+  .footer-container h3 {
+    font-size: 14px;
+    text-transform: none; }
+
+.sub-container {
+  width: 33.3%;
+  float: left;
+  padding: 0 30px; }
+
+.copyright {
+  font-size: 12px;
+  padding-left: 30px; }
+  .copyright a {
+    color: black; }
+    .copyright a:hover {
+      color: black; }
+
 @media screen and (max-width: 559px) {
   .responsive {
     width: 95%;
-    margin-top: 50px; } }
-@media (min-width: 600px) and (max-width: 990px) {
+    margin-top: 50px; }
+
+  .footer-responsive {
+    width: 95%; }
+
+  .sub-container {
+    width: 100%; } }
+@media (min-width: 560px) and (max-width: 990px) {
   .responsive {
-    width: 80%; } }
+    width: 80%; }
+
+  .footer-responsive {
+    width: 80%; }
+
+  .sub-container {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

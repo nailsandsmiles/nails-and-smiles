@@ -40,7 +40,8 @@
   width: 100%;
   font-size: 40px;
   padding: 5px 20px 0 0;
-  text-align: right; }
+  text-align: right;
+  z-index: 200; }
   .hamburger:hover {
     cursor: pointer; }
 
@@ -72,6 +73,11 @@
     color: black; }
 
 @media screen and (max-width: 740px) {
+  .logo {
+    top: 20px; }
+    .logo img {
+      width: 170px; }
+
   .header.hidden {
     transform: translateY(0); }
 

@@ -52,6 +52,7 @@
     font-size: 40px;
     padding: 5px 20px 0 0;
     text-align: right;
+    z-index: 200;
     &:hover {
         cursor: pointer;
     }
@@ -90,6 +91,12 @@
 }
 
 @media screen and (max-width: 740px) {
+    .logo {
+        top: 20px;
+        img{
+            width: 170px;
+        }
+    }
     
     .header.hidden {
         transform: translateY(0);
