@@ -1,0 +1,40 @@
+@import "sass/colors.scss";
+@import "sass/normalize.scss";
+@import "sass/navbar.scss";
+@import "sass/container.scss";
+@import "sass/mixins.scss";
+@import "landing.scss";
+@import "services.scss";
+@import "hours.scss";
+
+html { 
+  background: url(../assets/main-bg-short.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+@media screen and (max-width: 559px){
+    .responsive {
+        width: 95%;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 990px){
+    .responsive {
+        width: 80%;
+    }
+}
