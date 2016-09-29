@@ -1,6 +1,36 @@
 .about-hero {
     background-color: rgba(255,255,255,0.8);
-    margin: 150px auto;
-    width: 60%;
+    margin: 150px auto 80px auto;
+    width: 80%;
     padding: 20px 30px;
+}
+
+.about-first {
+    width: 50%;
+    color: black;
+    float: left;
+    padding-right: 20px;
+}
+
+.about-second {
+    width: 50%;
+    color: $pink;
+    float: left;
+    padding-left: 20px;
+}
+
+.about-third {
+    text-align: center;
+}
+
+@media screen and (max-width: 740px) {
+    .about-first {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .about-second {
+        width: 100%;
+        padding-left: 0px;
+    }
 }

@@ -67,12 +67,14 @@
     right: 0;
     line-height: 0;
     margin-top: 10px;
+    z-index: 300;
 }
 
 .drop-ul {
     background-color: rgba(255,255,255,0.8);
     list-style:none;
-    padding-left:0;
+    padding-left: 0;
+    z-index: 300;
 }
 
 .drop-li {

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$pink".
-        on line 22 of /home/ubuntu/workspace/css/services.scss
+        on line 29 of /home/ubuntu/workspace/css/services.scss
 
-17:     padding-right: 10px;
-18: }
-19: 
-20: h3 {
-21:     font-weight: 100;
-22:     color: $pink;
-23:     text-transform: uppercase;
-24: }
-25: 
-26: .sub-name{
-27:     color: $pink;
+24:     padding-left: 20px;
+25: }
+26: 
+27: h3 {
+28:     font-weight: 100;
+29:     color: $pink;
+30:     text-transform: uppercase;
+31: }
+32: 
+33: .sub-name{
+34:     color: $pink;
 
 Backtrace:
-/home/ubuntu/workspace/css/services.scss:22
+/home/ubuntu/workspace/css/services.scss:29
 /nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /nix/store/zmisxnl63ica4zaviifixamr3xg27kzp-ruby-2.3.1-p0/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$pink\".\A         on line 22 of /home/ubuntu/workspace/css/services.scss\A \A 17:     padding-right: 10px;\A 18: }\A 19: \A 20: h3 {\A 21:     font-weight: 100;\A 22:     color: $pink;\A 23:     text-transform: uppercase;\A 24: }\A 25: \A 26: .sub-name{\A 27:     color: $pink;"; }
+  content: "Error: Undefined variable: \"$pink\".\A         on line 29 of /home/ubuntu/workspace/css/services.scss\A \A 24:     padding-left: 20px;\A 25: }\A 26: \A 27: h3 {\A 28:     font-weight: 100;\A 29:     color: $pink;\A 30:     text-transform: uppercase;\A 31: }\A 32: \A 33: .sub-name{\A 34:     color: $pink;"; }
