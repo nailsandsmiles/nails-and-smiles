@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="nailsAndSmiles">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,11 +19,11 @@
             </div>
         
             <ul class="navbar">
-                <li><a href="#" class="nav-link">about</a></li>
-                <li><a href="#" class="nav-link">services</a></li>
-                <li><a href="#" class="nav-link">gallery</a></li>
-                <li><a href="#" class="nav-link">hours</a></li>
-                <li><a href="#" class="nav-link">contact</a></li>
+                <li><a href="#/landing" class="nav-link">about</a></li>
+                <li><a href="#/services" class="nav-link">services</a></li>
+                <li><a href="#/gallery" class="nav-link">gallery</a></li>
+                <li><a href="#/hours" class="nav-link">hours</a></li>
+                <li><a href="#/contact" class="nav-link">contact</a></li>
             </ul>
             
             <a href="#">
@@ -41,48 +41,14 @@
            </a>
         </nav> <!-- End Navigation Bar -->
         
-        
-        <!--<section class="about-hero responsive">-->
-        <!--    <p>Based on the importance -->
-        <!--    of enhancing and maintaining a person’s natural beauty, Nails and Smiles was -->
-        <!--    founded by Jaga in September 2016 after she noticed a -->
-        <!--    demand for premium nail care in top sanitasion enfironment -->
-        <!--    that offer both a relaxing and cozy experience.<br/><br/>-->
-        <!--    She believes that women should have strong, beautiful and most -->
-        <!--    importantly real nails obviating the need for extensions which destroy nail beds.<br/><br/>-->
-            
-        <!--    </p>-->
-        <!--</section>-->
-        
-        
-        <section class="services-hero services-responsive">
-            <div class="mani-section">
-                <h3>manicure</h3> 
-                <p class="sub-name">Regular Manicure <span class="price">16</span> <br/> <span class="description">Weekly maintenance manicure: nails are shaped, buffed, hand cream applied, finishing with a fresh pop of colour.</span></p>
-                <p class="sub-name">Paraffin Wax <span class="price">7</span> <br/> <span class="description">Add paraffin was for your manicure service. Recommended for dry rough skin.</span></p>
-                <p class="sub-name">No-Chip Manicure <span class="price">38</span> <br/> <span class="description">Nails are shaped, cuticles tidied, gel polish applied for long lasting effect and finished with hands hydrated with a nourishing cream. Stays atleast 2 weeks.</span></p>
-                <p class="sub-name">No-Chip Polish Change <span class="price">28</span> <br/> <span class="description">Reshaping of nails and gel polish applied. Stays atleast 2 weeks.</span></p>
-                <p class="sub-name">Regular Polish Change <span class="price">10</span> <br/> <span class="description">Reshaping of nails and fresh regular polish applied.</span></p>
-                <p class="sub-name">French <span class="price">5</span> <br/> <span class="description">Add French style for your manicure.</span></p>
-            </div>
-            
-            <div class="pedi-section">
-                <h3>pedicure</h3> 
-                <p class="sub-name">Regular Pedicure <span class="price">28</span><br/> <span class="description">fadff</span></p>
-            </div>
-            <div class="clearfix"></div>
-        </section>
-        
-        <!--<section class="hours-hero responsive">-->
-        <!--    <p class="">Appointments Only<br/><br/>-->
-        <!--    To schedule an appointment please call 773-698-4554<br/><br/>-->
-        <!--    Thank You</p>-->
-        <!--</section>-->
+        <div ng-view></div>
         
     <!-- third party js -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
     <!-- application scripts -->
-     <script src="js/index.js" type="text/javascript"></script>
- 
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
 </body>
 </html>
