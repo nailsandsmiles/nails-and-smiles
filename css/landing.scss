@@ -23,6 +23,15 @@
     text-align: center;
 }
 
+.ion-social-facebook{
+    font-size: 24px;
+    background-color: $pink;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 100%;
+}
+
+
 @media screen and (max-width: 740px) {
     .about-first {
         width: 100%;

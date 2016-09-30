@@ -19,6 +19,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     position: relative;
+    min-height: 100vh;
 }
 
 .clearfix{
@@ -30,7 +31,6 @@ body {
 }
 
 footer {
-    position: relative;
     background-color: rgba(255,255,255,0.3);
     font-size: 14px;
     width: 100%;

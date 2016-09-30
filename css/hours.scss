@@ -8,6 +8,12 @@
 .hours-cta{
     width: 50%;
     float: left;
+    a {
+        color: black;
+        &:hover{
+            color: black;
+        }
+    }
 }
 
 .hours-email {

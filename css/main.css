@@ -423,7 +423,7 @@ textarea {
   z-index: 300; }
 
 .drop-ul {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
   list-style: none;
   padding-left: 0;
   z-index: 300; }
@@ -434,7 +434,7 @@ textarea {
 
 .drop-link {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: black; }
   .drop-link:hover {
     text-decoration: none;
@@ -482,6 +482,13 @@ textarea {
 
 .about-third {
   text-align: center; }
+
+.ion-social-facebook {
+  font-size: 24px;
+  background-color: #e21776;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 100%; }
 
 @media screen and (max-width: 740px) {
   .about-first {
@@ -553,6 +560,10 @@ h3 {
 .hours-cta {
   width: 50%;
   float: left; }
+  .hours-cta a {
+    color: black; }
+    .hours-cta a:hover {
+      color: black; }
 
 .hours-email {
   width: 50%;
@@ -620,7 +631,8 @@ html {
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  position: relative; }
+  position: relative;
+  min-height: 100vh; }
 
 .clearfix {
   clear: both; }
@@ -629,7 +641,6 @@ body {
   color: #e21776; }
 
 footer {
-  position: relative;
   background-color: rgba(255, 255, 255, 0.3);
   font-size: 14px;
   width: 100%;

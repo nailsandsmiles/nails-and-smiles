@@ -71,7 +71,7 @@
 }
 
 .drop-ul {
-    background-color: rgba(255,255,255,0.8);
+    background-color: white;
     list-style:none;
     padding-left: 0;
     z-index: 300;
@@ -84,7 +84,7 @@
 
 .drop-link {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     &:hover {
         text-decoration: none;
