@@ -686,5 +686,9 @@ footer {
 
   .sub-container {
     width: 100%; } }
+@media (min-width: 1500px) {
+  footer {
+    position: absolute;
+    bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
