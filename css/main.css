@@ -440,7 +440,7 @@ textarea {
     text-decoration: none;
     color: black; }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 810px) {
   .logo {
     top: 20px; }
     .logo img {
@@ -454,7 +454,7 @@ textarea {
 
   .hamburger {
     display: inline-block; } }
-@media (min-width: 741px) and (max-width: 1200px) {
+@media (min-width: 811px) and (max-width: 1200px) {
   .navbar-container {
     text-align: right; } }
 *, *:after, *:before {
@@ -644,6 +644,18 @@ form {
 .discounts-img {
   width: 100%;
   height: auto; }
+
+.blog-hero {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 150px auto 80px auto;
+  width: 60%;
+  padding: 20px 30px; }
+
+.blog-first {
+  width: 90%;
+  margin: auto;
+  color: black;
+  padding-right: 20px; }
 
 html {
   background: url(../assets/main-bg-short.jpg) no-repeat center fixed;
