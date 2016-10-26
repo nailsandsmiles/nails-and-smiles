@@ -31,6 +31,23 @@
     border-radius: 100%;
 }
 
+.cta-link {
+        color: white;
+        text-decoration: none;
+        &:hover .landing-cta{
+            color: black;
+        }
+    }
+
+.landing-cta {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: $pink;
+    color: white;
+    padding: 20px 0;
+}
+
 
 @media screen and (max-width: 740px) {
     .about-first {
