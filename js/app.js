@@ -19,9 +19,9 @@ var app = angular.module("nailsAndSmiles", ["ngRoute"])
                     {
                         templateUrl: "templates/hours.html"
                     })
-                    // .when("/contact",
-                    // {
-                    //     templateUrl: "templates/contact.html"
-                    // })
+                    .when("/discounts",
+                    {
+                       templateUrl: "templates/discounts.html"
+                    })
                     .otherwise({redirectTo: "/landing"});
 }]);

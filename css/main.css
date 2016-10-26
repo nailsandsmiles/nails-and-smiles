@@ -621,6 +621,10 @@ form {
 
   form {
     margin: 0; } }
+.discounts-img {
+  width: 100%;
+  height: auto; }
+
 html {
   background: url(../assets/main-bg-short.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
