@@ -1,3 +1,9 @@
+.discounts-hero {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 150px auto 80px auto;
+  width: 60%;
+  padding: 20px 30px; }
+
 .discounts-img {
   width: 100%;
   height: auto; }
