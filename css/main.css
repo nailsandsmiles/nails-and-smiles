@@ -440,7 +440,7 @@ textarea {
     text-decoration: none;
     color: black; }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 908px) {
   .logo {
     top: 20px; }
     .logo img {
@@ -454,7 +454,7 @@ textarea {
 
   .hamburger {
     display: inline-block; } }
-@media (min-width: 811px) and (max-width: 1200px) {
+@media (min-width: 909px) and (max-width: 1200px) {
   .navbar-container {
     text-align: right; } }
 *, *:after, *:before {
@@ -656,6 +656,10 @@ form {
   margin: auto;
   color: black;
   padding-right: 20px; }
+
+.gallery-pic {
+  width: 100%;
+  height: auto; }
 
 html {
   background: url(../assets/main-bg-short.jpg) no-repeat center fixed;

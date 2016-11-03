@@ -74,7 +74,7 @@
     text-decoration: none;
     color: black; }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 908px) {
   .logo {
     top: 20px; }
     .logo img {
@@ -88,7 +88,7 @@
 
   .hamburger {
     display: inline-block; } }
-@media (min-width: 811px) and (max-width: 1200px) {
+@media (min-width: 909px) and (max-width: 1200px) {
   .navbar-container {
     text-align: right; } }
 
